@@ -1,0 +1,21 @@
+<% if current_user %>
+	<form action='/new_peep' method='post'>
+		<p><input type='text' name='peep' class='post-peep' placeholder='Compose new peep...'></p>
+		<p><input type='submit' value='Post!' class='button form'></p>
+	</form>
+
+<% else %>
+	<p class='must-login'></p>
+<% end %>
+	<br>
+	<h1>Peeps</h1>
+	<div id='peeps'>
+		<ul>
+			<% @peeps.reverse_each do |element| %>
+				<li>
+					<p id='single-peep'><%= element.peep %></p>
+					<p id='peep-author'>posted by <%= element.user.username %> </p>
+				</li>
+			<% end %>
+		</ul>
+	</div>
