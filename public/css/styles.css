@@ -170,6 +170,7 @@ li {
 		color: green;
 	}
 
+/* posted by - moved to the right */
 	li #peep-author {
 		font-size: 16px;
 		text-align: right;
