@@ -5,7 +5,7 @@ This is the week #6 friday test for [Makers Academy](http://www.makersacademy.co
 ## What is it?
 Chitter is a simple web application built in Sinatra, that simulates the popular social network Twitter.
 
-## Specs
+## Specifications
 
 We are going to write a little Twitter clone that will allow the users to post messages to a public stream.
 
@@ -24,6 +24,7 @@ Use bcrypt to secure the passwords
 Use data mapper and postgres to save the data
 You don't have to be logged in to see the peeps
 You only can peep if you are logged in.
+
 Bonus:
 
 If you have time you can implement the following:
@@ -31,17 +32,52 @@ In order to start a conversation as a maker I want to reply to a peep from anoth
       Or / and:
 Work on the css to make it look good (we all like beautiful things).
 
-## How can you use it?
-
-You can find a working version following this link:
-
-
-
 ## Technologies
 - Ruby
 - Sinatra
+- DataMapper
 - PostgreSQL
 - RSpec
 - Capybara
 - HTML
 - CSS
+
+## How to use it:
+
+Clone the repository:
+
+```shell
+$ git clone git@github.com:leopoldkwok/week6-challenge6.git
+```
+Change into the directory:
+
+```shell
+$ cd week6-challenge6
+```
+Run Bundle to load the required gems:
+
+```shell
+$ bundle install
+```
+You will need a local version of PostgreSQL, along with a test and a development database:
+
+Create a local database:
+
+```shell
+$ psql
+=# CREATE DATABASE chitter_test;
+=# \q
+```
+
+Run the auto-upgrade task:
+
+```shell
+$ rake auto_upgrade
+```
+
+Run Rspec:
+
+```shell
+$ rspec
+```
+Open a web browser and type localhost:9292
