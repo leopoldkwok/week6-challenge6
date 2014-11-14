@@ -1,7 +1,7 @@
 source "https://www.rubygems.org/"
 
 ruby '2.1.2'
-
+gem "codeclimate-test-reporter", group: :test, require: nil
 gem 'sinatra'
 gem 'sinatra-flash'
 gem 'data_mapper'

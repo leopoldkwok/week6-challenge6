@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/leopoldkwok/week6-challenge6/badges/gpa.svg)](https://codeclimate.com/github/leopoldkwok/week6-challenge6)
+[![Code Climate](https://codeclimate.com/github/leopoldkwok/week6-challenge6/badges/gpa.svg)](https://codeclimate.com/github/leopoldkwok/week6-challenge6)  [![Test Coverage](https://codeclimate.com/github/leopoldkwok/week6-challenge6/badges/coverage.svg)](https://codeclimate.com/github/leopoldkwok/week6-challenge6)
 Chitter
 =======
 This is the week #6 friday test for [Makers Academy](http://www.makersacademy.com).

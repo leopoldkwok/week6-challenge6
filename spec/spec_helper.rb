@@ -1,3 +1,8 @@
+ENV['CODECLIMATE_REPO_TOKEN']='1c82002142de0b702ec0795ad7462fb19bb95f48b0f4dab5507876e1d1086ca9'
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
+
+
 ENV["RACK_ENV"] = 'test'
 
 require_relative './../app/server.rb'
